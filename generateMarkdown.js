@@ -14,7 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
-  ${data.description}
+  ${data.description}</br>
+  ![video of how to use site](Readme-Generator.gif)
 
   ## Table of Contents
 
@@ -42,14 +43,12 @@ function generateMarkdown(data) {
   ##  ✏️ Tests
   The following is needed to run the test: ${data.tests}
 
-  ## Github Usernme 
-  ${data.github}
-
   ## Github Reponame
   ${data.repo}
 
-  ## ✉️  Contact me directly
-  ${data.email}
+  ## ✉️  Questions
+  If you have any further questions please don't heasitate to reach out via Github ${data.github} or directly by email ${data.email}
+ 
 
   _This README was generated with ❤️ by Jerilyn Wise_ 
 
