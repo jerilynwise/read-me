@@ -37,4 +37,4 @@ function generateMarkdown(data) {
   If you have any questions contact ${data.github}
 `};
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown
