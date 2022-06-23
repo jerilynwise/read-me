@@ -1,23 +1,40 @@
 # Readme Generator
   ## Description
-  The purpose pf this project is create a professional looking Readme in less time. 
+  Node based Readme Generator 
+
   ## Table of Contents
-  *[Installation] (#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contribuation](#contributing)
-  *[Tests](#tests)
-  *[Questions](#questions)
-  ## Installation
+  -[Installation] (#installation)</br>
+  -[Usage](#usage)</br>
+  -[License](#license)</br>
+  -[Contribuation](#contributing)</br>
+  -[Tests](#tests)</br>
+  -[Questions](#questions)</br>
+
+  ##  💾 Installation
   The following necessary dependancies must be installed to run the application
-  ## Usage
-  In order to use this app, Clone files from github, install node, open files, in terminal download Inquirer, type in node index,js, answer questions relating to your project, see finsihed readme
+  npm init npm install inquirer
+
+  ##  💻 Usage
+  In order to use this app, run the following command at the root fo your project and answer the prompted questions: node index.js
+
   ## License
-  This project is licensed under the MIT license.
-  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
-  ## Contributing
-  Contributors: If you would like to contribute please email me directly or send a git pull request.
-  ## Tests
+  This project is licensed under the APACHE license.
+  ![Github license](https://img.shields.io/badge/license-APACHE-blue.svg)
+
+  ##  👪 Contributing
+   To contribute to this project please send a Github pull request.
+
+  ##  ✏️ Tests
   The following is needed to run the test: N/A
-  ## Questions
-  If you have any questions contact jerilynwise
+
+  ## Github Usernme 
+  Jerilyn Wise 
+
+  ## Github Reponame
+  read-me/github.com
+
+  ## ✉️  Contact me directly
+  Jerilynwisedesigns@gmail.com
+
+  _This README was generated with ❤️ by Jerilyn Wise_ 
+
