@@ -15,7 +15,7 @@ const questions = [
 		type: "input",
 		name: "description",
 		message:
-			"Please describe your project. Some pointers for a quality description: What was the motivation behind the project? What is the purpose of the project? How will your project be used? What have you learnt?",
+			"Please describe your project. Some pointers for a quality description: What was the motivation behind the project? What is the purpose of the project? How will your project be used? What have you learned?",
 	},
 	{
 		type: "input",
