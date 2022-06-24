@@ -15,38 +15,37 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
   ${data.description}</br>
-  ![video of how to use site](Readme-Generator.gif)
-
+  
   ## Table of Contents
 
-  -[Installation](#installation)</br>
-  -[Usage](#usage)</br>
-  -[License](#license)</br>
-  -[Contribuation](#contributing)</br>
-  -[Tests](#tests)</br>
-  -[Questions](#questions)</br>
+  * [Installation](#🧑🏻‍🔧-installation)</br>
+  * [Usage](#👨‍💻-usage)</br>
+  * [License](#license)</br>
+  * [Contribuation](#contributing)</br>
+  * [Tests](#tests)</br>
+  * [Questions](#questions)</br>
 
-  ##  💾 Installation
+  ##  🧑🏻‍🔧Installation
   The following necessary dependancies must be installed to run the application
   ${data.installation}
 
-  ##  💻 Usage
+  ## 👨‍💻Usage
   In order to use this app, ${data.usage}
 
   ## License
   This project is licensed under the ${data.license} license.</br>
   ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
-  ##  👪 Contributing
+  ## Contributing
    ${data.contributing}
 
-  ##  ✏️ Tests
+  ## Tests 
   The following is needed to run the test: ${data.tests}
 
   ## Github Reponame
-  ${data.repo}
-
-  ## ✉️  Questions
+  [github repo](https://github.com/${data.github}/${data.repo})
+  
+  ## Questions 
   If you have any further questions please don't heasitate to reach out via Github ${data.github} or directly by email ${data.email}
  
 

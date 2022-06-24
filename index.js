@@ -64,13 +64,23 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+	if (!data) {
+		console.log("No data provided, please try again!")
+	}
+	fs.writeFileSync(fileName, data, err => {
+		if(err) {
+			console.log("Something went wrong creating your file!:", err.message)
+		}
+	}) 
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((response) => {
-        writeToFile("README.md", generateMarkdown(response))
+		const readMePath = path.join(__dirname, './dist', "README.md")
+		const markdown = generateMarkdown(response)
+        writeToFile(readMePath, markdown)
+		console.log("Your REAADME.md is in the dist folder")
     })
 }
 
