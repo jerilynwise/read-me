@@ -23,7 +23,7 @@
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## 👯‍♀️ Contributing
-  👥 To contribute to this project please send a Github pull request.
+  To contribute to this project please send a Github pull request.
 
   ## 📝 Tests 
    The following is needed to run the test: N/A
