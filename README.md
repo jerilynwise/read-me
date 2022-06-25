@@ -1,7 +1,7 @@
-# lknxdb
+# READ-ME GENERATOR
   ## Description
-  kl;ajrg</br>
-  ![video of how to use site](Readme-Generator.gif)
+  Node based Readme Generator </br>
+  
 
   ## Table of Contents
 
@@ -14,26 +14,27 @@
 
   ## Installation
   The following necessary dependancies must be installed to run the application
-  ';jlaf
+  npm init npm install inquirer
 
   ## Usage
-  In order to use this app, lkjfdg
+  In order to use this app:
+  run the following command at the root fo your project and answer the prompted questions: node index.js
 
   ## License
   This project is licensed under the MIT license.</br>
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Contributing
-   'lksjfdg
+  To contribute to this project please send a Github pull request.
 
   ## Tests 
-  The following is needed to run the test: 'l;sjdfg
+  The following is needed to run the test: N/A
 
   ## Github Reponame
-  l;kag
+  https://github.com/jerilynwise/read-me
 
   ## Questions 
-  If you have any further questions please don't heasitate to reach out via Github ;lkfg or directly by email 'ljsdfg
+  If you have any further questions please don't heasitate to reach out via Github https://github.com/jerilynwise or directly by email jerilynwisedesigns@gmail.com
  
 
   _This README was generated with ❤️ by Jerilyn Wise_ 
