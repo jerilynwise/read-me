@@ -3,7 +3,8 @@
 
   Node based Readme Generator </br>
   
-![Readme-Generator  (1)](https://user-images.githubusercontent.com/102970872/175665873-4a7f9970-2f14-4fbc-a12e-da7074fa6684.gif)
+![Readme-Generator  (2)](https://user-images.githubusercontent.com/102970872/175756408-2aa08362-1df1-48c0-befa-0fc48c9ab38c.gif)
+
 
 
   ## Table of Contents
