@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// global required installs for the code
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require('./generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Questions array- inquirer will prompt user
 const questions = [
 	{
 		type: "input",
@@ -62,7 +62,7 @@ const questions = [
 	},
 ];
 
-// TODO: Create a function to write README file
+//function to write README file
 function writeToFile(fileName, data) {
 	if (!data) {
 		console.log("No data provided, please try again!")
@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
 	}) 
 }
 
-// TODO: Create a function to initialize app
+// function to initialize app and send generated file to the dist folder
 function init() {
     inquirer.prompt(questions).then((response) => {
 		const readMePath = path.join(__dirname, './dist', "README.md")
