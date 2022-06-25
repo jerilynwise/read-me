@@ -1,10 +1,7 @@
 # READ-ME GENERATOR
   ## Description
-<<<<<<< HEAD
+
   Node based Readme Generator </br>
-  
-=======
-  kl;ajrg</br>
   
 ![Readme-Generator  (1)](https://user-images.githubusercontent.com/102970872/175665873-4a7f9970-2f14-4fbc-a12e-da7074fa6684.gif)
 >>>>>>> 416514f24bd7f7d0adceb1f3b7fe818513ad4062
