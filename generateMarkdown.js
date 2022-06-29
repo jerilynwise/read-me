@@ -34,7 +34,7 @@ function generateMarkdown(data) {
   ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
   ## 👯‍♀️ Contributing
-  👥 ${data.contributing}
+  ${data.contributing}
 
   ## 📝 Tests 
    The following is needed to run the test: ${data.tests}
